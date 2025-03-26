@@ -20,7 +20,7 @@
     }
     #pointer {
       position: absolute;
-      top: 110px;
+      top: 70px; left: calc(50% - 20px);
       z-index: 10;
     }
     #spin {
@@ -50,9 +50,10 @@
   </style>
 </head>
 <body>
+  <h1 style="color:white; margin-top:1rem;">Rueda de la Prevención</h1>
   <div id="pointer">
     <svg width="40" height="40">
-      <polygon points="20,0 0,40 40,40" style="fill:orange;" />
+      <polygon points="20,40 0,0 40,0" style="fill:purple;" />
     </svg>
   </div>
   <canvas id="wheel" width="400" height="400"></canvas>
